@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProductRepository {
-    private List<Product> products;
+    private final List<Product> products;
 
     public ProductRepository() {
         products = new ArrayList<>();
